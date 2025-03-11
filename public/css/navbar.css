@@ -1,0 +1,38 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #2E8B57; /* Color verde para la barra */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+.navbar-brand {
+    color: white !important; /* Color blanco para el texto del título */
+    font-weight: bold; /* Negrita para el título */
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+}
+
+.navbar-toggler {
+    border: none; /* Elimina el borde de la hamburguesa */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important; /* Color blanco para los enlaces */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 15px; /* Relleno de los enlaces */
+    font-size: 1rem; /* Tamaño de fuente de los enlaces */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #1b4d3e; /* Color más oscuro para los enlaces al hacer hover */
+    color: white; /* Asegura que el texto sea blanco al hacer hover */
+}
+
+/* Estilos para los elementos de la barra en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        text-align: center; /* Centra los enlaces en pantallas pequeñas */
+    }
+    .navbar-toggler {
+        color: white; /* Color blanco para el ícono del menú */
+    }
+}

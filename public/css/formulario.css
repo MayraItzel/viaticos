@@ -1,0 +1,75 @@
+/* Estilos para el formulario de solicitud de viáticos */
+.formulario-container {
+    max-width: 800px;
+    margin: 50px auto; /* Centra el formulario y agrega un margen superior */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.formulario-container h1 {
+    text-align: center;
+    color: #2E8B57; /* Verde oscuro para el título */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #2E8B57; /* Cambia el color del borde al hacer focus */
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #2E8B57; /* Color de fondo verde oscuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%; /* Hace que el botón ocupe todo el ancho del formulario */
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b4d3e; /* Cambia el color cuando el usuario pasa el mouse por encima */
+}
+
+button[type="submit"]:focus {
+    outline: none; /* Elimina el borde al hacer focus */
+}
+
+/* Estilo para los mensajes de error */
+.invalid-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

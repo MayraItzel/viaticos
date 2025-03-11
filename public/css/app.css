@@ -1,0 +1,256 @@
+/* Estilos generales para la página */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Espacio para la barra de navegación */
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: #2E8B57; /* Verde oscuro */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* Estilo para los enlaces en el navbar */
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px; /* Ajustar el tamaño del botón */
+    text-align: center;
+}
+
+/* Estilo de los enlaces al hacer hover */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #3CB371; /* Verde más claro */
+    color: white;
+}
+
+/* Estilo para el toggle de la barra en pantallas pequeñas */
+.navbar-toggler {
+    border: none;
+}
+
+/* Formulario */
+form {
+    width: 80%;
+    max-width: 800px;
+    margin: 120px auto 0; /* Centramos el formulario */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los campos de texto */
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Estilo de los campos de texto al estar activos */
+input:focus, textarea:focus {
+    border-color: #2E8B57;
+    outline: none;
+}
+
+/* Estilo de los títulos del formulario */
+h1, h2 {
+    color: #2E8B57;
+    text-align: center;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1e5a3d;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Espaciado y márgenes para asegurar que el contenido se vea limpio */
+.container, .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos adicionales para los mensajes de error */
+.invalid-feedback {
+    color: red;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    background-color: #2d6a4f; /* Verde oscuro */
+    color: white;
+}
+
+.card-body {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+}
+
+.btn-success {
+    background-color: #2d6a4f; /* Verde oscuro */
+    border-color: #2d6a4f;
+}
+
+.btn-success:hover {
+    background-color: #1b4d3e; /* Verde más oscuro */
+    border-color: #1b4d3e;
+}
+/* Ajustes generales para el formulario */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #2E8B57; /* Verde oscuro */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* Estilos del formulario */
+form {
+    width: 80%;
+    max-width: 800px;
+    margin: 80px auto 0; /* Reducir el margen superior para que no haya tanto espacio */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los campos de texto */
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Estilo de los campos de texto al estar activos */
+input:focus, textarea:focus {
+    border-color: #2E8B57;
+    outline: none;
+}
+
+/* Estilo de los títulos del formulario */
+h1, h2 {
+    color: #2E8B57;
+    text-align: center;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1e5a3d;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Espaciado y márgenes para asegurar que el contenido se vea limpio */
+.container, .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos adicionales para los mensajes de error */
+.invalid-feedback {
+    color: red;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    background-color: #2d6a4f; /* Verde oscuro */
+    color: white;
+}
+
+.card-body {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+}
+
+.btn-success {
+    background-color: #2d6a4f; /* Verde oscuro */
+    border-color: #2d6a4f;
+}
+
+.btn-success:hover {
+    background-color: #1b4d3e; /* Verde más oscuro */
+    border-color: #1b4d3e;
+}

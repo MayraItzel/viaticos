@@ -1,0 +1,57 @@
+
+    /* Sección de bienvenida */
+    .welcome-section {
+        background-color: #006747; /* Verde UPFIM */
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+        margin: 0 auto;  /* Aseguramos que el contenido esté centrado */
+    }
+
+    /* Título Sistema de Viáticos */
+    .system-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: #006747; /* Verde */
+    }
+
+    /* Estilo para los campos de entrada */
+    .form-control {
+        border-radius: 8px;
+        border: 2px solid #006747; /* Borde verde */
+        padding: 15px;
+        font-size: 16px;
+        width: 100%; /* Hacer que los campos de entrada ocupen todo el ancho disponible */
+    }
+
+    /* Estilo para el botón */
+    .btn-success {
+        background-color: #004d33; /* Verde más oscuro */
+        border: none;
+        border-radius: 8px;
+        padding: 12px 25px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .btn-success:hover {
+        background-color: #003e26; /* Color más oscuro al pasar el mouse */
+    }
+
+    /* Pie de página */
+    .footer {
+        background-color:  #004d33;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+        font-size: 14px;
+        color:rgba(243, 247, 245, 0.87);
+    }
+
+    /* Asegurarnos que todo el contenido esté centrado vertical y horizontalmente */
+    .container {
+        max-width: 900px; /* Mucho más ancho */
+        margin: 0 auto; /* Centra el formulario */
+    }
+
